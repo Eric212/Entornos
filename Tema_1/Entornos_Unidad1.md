@@ -33,9 +33,10 @@ Investiga y responde a las siguientes preguntas:
 2. ¿Cuál es la principal diferencia de un transpilador con un compilador?
 - Un compilador convierte el codigo fuente en codigo maquina, mientras que el transpilador lo convierte en otro lenjuage en codigo fuente
 3. Cita ejemplos de lenguajes actuales que usen un transpilador.
-| Nombre | Lenguaje fuente |Lenguaje destino |
-| :--: | :--: | :--: |
-| Cfront |C++ | C |
-| HipHop |PHP |	C++ |
+
+| Nombre | Lenguaje_fuente | Lenguaje_destino |
+| :---: | :---: | :---: |
+| Cfront | C++ | C |
+| HipHop | PHP | C++ |
 | JSweet |Java |TypeScript |
-| J2ObjC | Java | Objective-C | 
+| J2ObjC | Java | Objective-C |
