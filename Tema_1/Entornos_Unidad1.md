@@ -10,10 +10,16 @@ Esta actividad se hará de forma individual. Responde sobre el propio documento.
 Tiempo estimado: 1-2 sesiones
 ### Actividad 1: Comparando lenguajes compilados, virtuales e interpretados
 1. Diseña una infografía que compare lenguaje compilados con lenguajes interpretados desde varios puntos de vista: el rendimiento, la fiabilidad de detección de errores, la flexibilidad del lenguaje y la portabilidad.
+
+
+
 ![Infografia1](Infografia1.png)
 ![Infografia2](Infografia2.png)
 ![Infografia3](Infografia3.png)
 ![Infografia4](Infografia4.png)
+
+
+
 2. Hemos hecho un programa con un lenguaje interpretado y lo queremos distribuir. ¿Que necesitará un usuario que quiera ejecutar nuestro programa en su ordenador? Argumenta la respuesta.
 3. Tu programa está compuesto por dos ficheros de código fuente A y B. Ejecutas el programa y mientras está ejecutando instrucciones del fichero de código fuente A ves que hay un error de programación en el fichero B y modificas ese fichero. Compara cómo harías para que se ejecute el programa con el cambio que acabas de hacer en un compilador o en un intérprete.
 
