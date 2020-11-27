@@ -1,69 +1,145 @@
-# Entornos de Desarrollo
-## UT01: Desarrollo de Software
-### Ingeniería del software
-#### Objetivos
-- Afianzar los conceptos básicos del desarrollo de software
-#### Elementos necesarios
-- Ordenador con acceso a Internet
-- LibreOffice Writer
-#### Instrucciones
-Esta actividad se hará de forma individual. Responde sobre el propio documento.
-Tiempo estimado: 2 sesiones
-#### 01: Los problemas del desarrollo de software
-Investiga sobre el Standish Group 2015 Chaos Report y contesta a las siguientes cuestiones. Puedes obtener un resumen del informe en español en http://www.laboratorioti.com/2016/05/16/informe-del-caos-2015-chaos-report-2015-bien-mal-fueron-los-proyectos-ano-2015/
-1. ¿Quienes son  Standish Group?
-- Soun una empresa encargada de estudiar una cantidad de proyectos de desarrollo software y determinar el porcentaje de exito obtenido a lo largo del año.
-2. ¿Qué es el Chaos Report?
-- Es un estandar donde se determina lo que es el exito de un proyecto, y el porcentaje obtenido a lo largo del año
-3. ¿Qué porcentaje de proyectos software han sido exitosos, fracasados y no completamente exitosos según el informe de 2015?
+# Sistemas informáticosUnidad 1
+### 1. Accede a la página web del fabricante MSI y localiza la placa base MSI X220 RAIDER (https://es.msi.com/Motherboard/X299-RAIDER/Specification).
+### Realiza los siguientes ejercicios:
+- Descarga una imagen de la placa base y otra de los conectores externos del panel trasero.Señala aquellos elementos estudiados, indicando su nombre técnico.
+![Placa base1](../Placa_Base1.png)
+![Placa base2](../Placa_Base2.png)
+- ¿Qué factor de forma tiene la placa base?
+  - Tiene un formato ATX 
+- Procesador.
+  - ¿Qué tipo de socket de procesador tiene?
+    - LGA2066 
+  - ¿Con qué procesadores es compatible la placa base?
+    - Skylake-X y Kaby Lake-X
+- Memoria RAM.
+  - ¿Qué módulos de memoria soporta?
+    - DDR4 4500+(OC)/4400(OC)/4333(OC)/4266(OC)/4200(OC)/4133(OC)/4000(OC)/3866(OC)/3800(OC)/3733(OC)/3600(OC)/3466(OC)/3400(OC)/3333(OC)/3200(OC)/3000(OC)/2933(OC)/2800(OC)/2667/2400/2133 MHz
+  - ¿Qué cantidad máxima de memoriaRAM se puede instalar?
+    - 8 modulos de DDR4, con una caoacidad maxima 128GB
+  - ¿Dispone de tecnología multicanal?
+    - Quad Channel y Dual Channel
+- Qué chipset monta la placa base?
+  - Intel® X299 Chipset
+- Indica las características del mismo mediante un diagrama o describiéndolo
+![chipset](../chipset.png)
+- Capacidad de expansión. ¿De cuántas ranuras de expansión dispone y de qué tipo?
+  - Dispone de 5 ranuras de expansion PCIexpress
+  - 4 ranuras de PCIexpress x16
+  - 1 ranura de PCIexpress x1
+- Conectores internos.
+  - ¿De qué conectores internos dispone y cuál es su número?
+    -  1 conector de alimentación principal ATX de 24 pines
+    - 1 conector de alimentación ATX 12V de 8 pines
+    - 8 conectores SATA 6Gb / s
+    - 2 conectores USB 2.0 (admite 4 puertos USB 2.0 adicionales)
+    - 2 conectores USB 3.1 Gen1 (admite 4 puertos USB 3.1 Gen1 adicionales)
+    - 1 puerto USB 3.1 Gen2 tipo C
+    - 1 conector de ventilador de CPU de 4 pines
+    - 1 conector de bomba de agua de 4 pines
+    - Conectores de ventilador del sistema de 4 x 4 pines
+    - 2 conectores del panel frontal
+    - 1 conector de audio del panel frontal
+    - 1 conector de extensión LED
+    - 1 conector de módulo TPM
+    - 1 RAID virtual en el conector de la CPU
+    - 1 conector de tarjeta adicional Thunderbolt
+    - 2 ranuras M.2
+- ¿La placa base permite resetear la memoria BIOS RAM-CMOS?
+    - Si 
+- ¿Si lo permite, puedes explicar cómo?
+    - La placa incorpora dos sistemas para este fin, uno seria mediante la pulsacion del boton de la parte posterior de la placa base, y la otra seria mediante los jumpers JBAT 
+- ¿Cuántos conectores de alimentación posee?
+    - Posee 2 conectores de alimentacion
+- ¿De qué tipo?
+    - Uno de 24 pines y otro de 8 pines a 12V para la cpu 
+- Indica el procedimiento para descargar los drivers de la placa base
+    - Iriamos a la pagina oficial del fabricante, nos iriamos al apartado de soporte, donde buscariamos la placa base, y despues en la seccion de drivers especificariamos el sistema operativo que poseemos, y por ultimo descargariamos los drivers correspondientes
+### 2. Realiza una comparativa teórica de las velocidades de transferencia de datos de los buses USB, SATA y Thunderbolt en sus versiones más actuales
+| Caracteristicas| USB | SATA | Thunderbolt |
+| :---: | :---: | :---: | :---: |
+| Velocidades | 10 Gb/s (1.2 GB/s) | 16 Gb/s (2 GB/s) | 40 Gb/s (5 GB/s) |
+### 3. Descarga la aplicación CPU-Z de la página web oficial: https://www.cpuid.com/downloads/cpu-z/cpu-z_1.94-en.exe.Instálala y ejecútala. Anota la información del equipo
+- Procesador: nombre comercial, número de núcleos, frecuencias, tecnología de integración, voltaje, conjunto de instrucciones, caché y número de hilos
+![cpu-x](../Cpu-X1.png)
+- Placa base y chipset: fabricante y modelo de placa base, tipo de chipset, fabricante y modelo de BIOS
+![cpu-x](../Cpu-X1.png)
+- Memoria: tipos, tamaños, latencias y canales•Información en tiempo real del estado de todos los componentes: frecuencias, voltajes y temperaturas (ver en el BIOS)
+![cpu-x](../Cpu-X1.png)
 
--   | Exitosos | Fallidos | No completados |
-    | :---: | :---: | :---: |
-    | 29% | 19% | 52% |
+### 4. Sobre el mismo equipo y una vez recogida la información del punto anterior, descarga el manual de la placa base de la página oficial del fabricante y localiza los pines de reseteo de la memoria BIOS RAM-CMOS. Accede al BIOS Setup Utility y anota la prioridad del orden de arranque de los dispositivos de almacenamiento secundario. Cambia dichos parámetros a otros cualquiera. Apaga el equipo. Desconecta los cables de alimentación del equipo y de los dispositivos periféricos. Abre el equipo y resetea la BIOS RAM-CMOS.
 
-4. ¿Crees que el tamaño de los proyectos afecta en el éxito de los mismos?
-- Si porque cuanto mas pequeño es el proyecto mas sencillo resulta, de dirigir, estructurar y llevar a cabo.
-5. ¿Usar un ciclo de desarrollo en cascada o Agile (como SCRUM) afecta en la resolución exitosa de un proyecto? ¿Guarda esto alguna relación con el tamaño de los proyectos? Justifica la respuesta
-Si, porque los proyectos en casacada no pueden avanzar sin que el anterior campo de el visto bueno, mientras que en el agil, todos los campos van avanzando por su cuenta y retroalimentandose entre si, por esa razon la resolucion de problemas es mas llevadera.
-No, puden desarrollar un proyecto en una metodologia o otra, pero el tamaño por si solo influye tanto en una como en otra.
 
-#### Actividad 02: Proceso de desarrollo
-Haz una analogía entre cada una de las fases del desarrollo de software del modelo en cascada y las fases por las que pasas la construcción de una casa de diseño.
-Por ejemplo:
-- Especificación de requisitos: El arquitecto determina lo que el cliente quiere para la casa, es decir los requisitos: tipo de diseño, elementos, materiales, etc.
+![Pines](../Pines.png)
 
-    1. Especificacion de requisitos(Analisis):El arquitecto escucha todos los requisitos que debe tener la casa y comienza a hacer un esquema basico de como debe finalizar el proyecto
-    2. Diseño: El diseñador coge toda la informacion del arquitecto, y esboza una estructura basica que tiene que seguir el proyecto para finalizar con exito, esto lo comprueba con el arquitecto que es quien tiene que dar el visto bueno
-    3. Implementacion: Los albañiles implementan el diseño y construllen la casa conforme los diseños que les han proporcionado, una vez acabado el diseñador revisrara el proyecto para dar el visto bueno.
-    4. Verificacion: La casa piloto es presentada al cliente, y este dara su visto bueno o no al arquitecto, que en caso negativo tendra que volver a hacer el esquema basico con el cual volver a empezar
-    5. Mantenimiento: El arquitecto da las llaves de la casa al cliente, y le ofrece un mantenimiento de la misma, junto con el acuerdo de poder mejorar la casa
+
+Vuelve a conectar los cables del equipo y comprueba que se ha reseteado la BIOS RAM-CMOS a sus valores originales de fábrica, volviendo a entrar en la BIOS Setup Utility. Modifica los valores de la BIOS RAM-CMOS a los valores previos al reseteo.
+
+![Bios](Bios2.webp)
     
+### 5. Busca al menos tres ejemplos para cada tipo de software
+### 6. Vamos a analizar la segunda parte del proceso POST de nuestro equipo. Para ello, cuando aparezca una imagen como la de la figura 1.34 y, antes de que pase a la siguiente pantalla, analiza todas las líneas. Para detener la imagen y el proceso de arranque del equipo, pulsa la tecla ‘Pausa’ en el teclado
+Explica cada una de las líneas.
+1.  La primera linea nos dice el fabricante del software de la Bios 
+2. La segunda nos dice la fecha y hora que almacena la bios y su version
+3. La tercera nos comenta el tipo de maquina que es
+4. La cuarta nos comenta la cpu que lleva el sistema y su velocida
+5. La quinta nos comenta su velocidad base junto con sus nucleos
+6. La sexta nos comenta la combinacion de teclas para entrar en la bios o utilizar un teclado remoto
+7. La septima nos comenta la combinacion de teclas para arrancar desde tarjeta de red o utilizar un teclado remoto
+8. La octava nos comenta la combinacion de teclas para acceder al menu de arranque o utilizar un teclado remoto
+9. La novena carga la version correspondiente de Firewire
+10. Y en la decima y ultima linea nos carga los drivers de los usb
+Accede al BIOS Setup Utility:
+ Obtén información de la temperatura del procesador, su voltaje y la velocidad de los ventiladores
 
-Actividad 03: Arquitectura del software
-1. ¿Qué es un antipatrón de software? Explica algún ejemplo
-- Un antipatron es las pautas a evitar cuando se diseña un proyecto
-- Dar a conocer funcionalidades antes de ser funcionales
-2. ¿Que es son los Front-End y Back-End developers? ¿Con qué modelo de arquitectura de software crees que encajan estos perfiles? Justifica la respuesta y cita las fuentes consultadas:
-- Los front-End developers son aquellos que desarrollan la parte que visualizara el usuario, en cambio los back-End developers son aquellos que se encargan del desarrollo de la parte funcional que queda oculta al usuario
-- Esta arquitectura se utiliza para el desarrollo web
-https://economiatic.com/desarrollador-web/
-3. ¿Qué es la escalabilidad de un sistema software? ¿Cómo crees que el diseño arquitectónico en capas contribuye a este factor? Justifica la respuesta.
-- La escalabilidad de un sistema  software es la capacidad de  adaptarse a la demanda de rendimiento con el crecimiento de usuarios que lo utilizan.
-- El diseño arquitectónico nos permite escalar mejor un software puesto que al no saber exactamente la magnitud del software, dividimos el mismo en partes con un proposito especifico, asi de esta manera cada parte del software se encarga de una tarea diferente y reparten la cargar del software
-4. Define lo que es una arquitectura cliente-servidor desde el punto de vista de las arquitecturas software. Contrasta el modelo en 3 capas con una arquitectura clásica cliente-servidor. ¿Cuáles son las ventajas y los inconvenientes de cada uno de ellos?
-- Cliente-servidor. Donde el software reparte su carga de cómputo en dos partes independientes pero sin reparto claro de funciones.Arquitectura de tres niveles. Especialización de la arquitectura cliente-servidor donde la carga se divide en tres partes (o capas) con un reparto claro de funciones: una capa para la presentación (interfaz de usuario), otra para el cálculo (donde se encuentra modelado el negocio) y otra para el almacenamiento (persistencia). Una capa solamente tiene relación con la siguiente.
-5. ¿Qué es un framework? ¿Qué ventajas le ves al uso de frameworks? ¿Qué frameworks de desarrollo podemos encontrar hoy en día en las plataformas Java, .Net, Javascript y PHP que sigan la arquitectura MVC?
-- Es un software que nos permite desarrollar software de manera mas sencilla pues nos evita tener que introduccir codigo de manera repetitiva, nos proporciona herramientas especificas del lenguaje que utilicemos.
+![Bios](Bios1.webp)
 
-| Nombre | Lenguaje |
+- Anota el orden de los medios de arranque del sistema operativo. Guarda los cambios y reinicia el sistema. ¿Qué ocurre? Restáuralo a su orden anterior.
+    -  Al cambiar el orden de arranque no inicia el sistema porque no encuentra la particion de activa de sistema, para cargar el sistema operativo
+7. Pon dos ejemplos, buscando en internet, de los hipervisores nativos y otros dos alojados
+
+| Nativos | Alojados |
 | :---: | :---: |
-| Spring MVC | Java |
-| ASP. NET MVC | .NET |
-| Kendo | JavaScript |
-| Laravel | PHP |
+| Hyper-V | VirtualBox|
+|Parallels | VM-Ware |
+8. Cita diez ejemplos de distribuciones GNU/Linux
 
-Fuentes consultadas:
-- https://www.hostinger.com/tutorials/best-php-framework
-- https://www.bbconsult.co.uk/blog/top-10-javascript-mvc-frameworks
-- https://dotnet.microsoft.com/apps/aspnet/mvc
-- https://www.jrebel.com/blog/java-mvc-frameworks-comparison
+| Distribuciones |
+| :---: |
+| LinuxMint |
+| Ubuntu |
+| Kali-Linux |
+| RedHat |
+| CentOS |
+| Open-SUSE |
+| Lliurex |
+| ArchLinux |
+| Debian |
+| Manjaros|
+9. Realiza el proceso de descarga e instalación de la última versión de Oracle VirtualBox. A continuación:
+◦Crea una máquina virtual llamada Ubuntu MV para la futura instalación de Ubuntu Desktop con 4 Gb de memoria RAM y un disco duro reservado dinámicamente de 250 Gb
+◦Crea una instantánea de cada una con el nombre de MV Limpia (Ubuntu / Windows)
+◦Accede a la configuración de Windows MV y añade un segundo disco duro reservado dinámicamente de 200 Gb. En caso de duda, consulta la ayuda de VirtualBox.
+
+![VirtualBox](VirtualBox1.png)
+![VirtualBox](VirtualBox2.png)
+![VirtualBox](VirtualBox3.png)
+![VirtualBox](VirtualBox4.png)
+![VirtualBox](VirtualBox5.png)
+![VirtualBox](VirtualBox6.png)
+![VirtualBox](VirtualBox7.png)
+![VirtualBox](VirtualBox8.png)
+![VirtualBox](VirtualBox9.png)
+![VirtualBox](VirtualBox10.png)
+![VirtualBox](VirtualBox11.png)
+
+
+10.Descarga una versión de prueba de Vmware WorkStation Pro desde https://www.vmware.com/es/products/workstation-pro.html. Instala la aplicación y crea una máquina virtual de prueba.
+![VM-Ware](VM-Ware.png)
+
+
+
+
+
+
+
