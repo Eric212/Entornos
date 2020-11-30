@@ -13,10 +13,15 @@ Tiempo estimado: 1-2 sesiones
 
 
 
+
+
 ![Infografia1](Infografia1.png)
 ![Infografia2](Infografia2.png)
 ![Infografia3](Infografia3.png)
 ![Infografia4](Infografia4.png)
+
+
+
 
 
 
